@@ -141,7 +141,7 @@ def tui():
 {S}[ ᴛᴏᴋᴇɴ ᴇʀʀᴏʀs ]: {E}{token_errors} ❌
  
 {G}[ ᴛʜʀᴇᴀᴅs ]: {B}{active_count()} ⇝⇝⇝⇝ ''')
-        sleep(2);system('cls' if name == 'nt' else 'clear')
+        sleep(250);system('cls' if name == 'nt' else 'clear')
 
 system('cls' if name == 'nt' else 'clear')
 print(logo)
